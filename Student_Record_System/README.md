@@ -1,4 +1,4 @@
-# STUDENT RECORD SYSTEM
+ STUDENT RECORD SYSTEM
 =======================
 
 Author: Aman Kumar @alpha74

@@ -1,11 +1,9 @@
-CSV-TO-TXT file converter
-==========================
+# CSV-TO-TXT file-parser
 
-The input file is named: input.csv
-The output file created: output.txt
+Input filename: input.csv
+Output file created: output.txt
 
-Program:
+### Working:
  * Removes commas and replace it with space.
  * Replaces newline feed with new line feed.
- 
  

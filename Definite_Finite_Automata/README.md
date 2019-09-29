@@ -1,5 +1,6 @@
-DEFINITE FINITE AUTOMATA
+Definite Finite Automata
 =========================
+### Implementation of Definite Finite Automata in C.
 
 Author: Aman Kumar @alpha74
 

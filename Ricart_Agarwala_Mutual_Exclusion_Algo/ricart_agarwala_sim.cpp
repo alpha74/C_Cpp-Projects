@@ -7,7 +7,6 @@
 */
 
 #include <iostream>
-#include <fstream>
 #include <conio.h>
 #include <vector>
 #include <algorithm>

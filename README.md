@@ -14,3 +14,6 @@ These are small projects implemented in C and C++.
 ### 4. Pacman Food Search using BFS.
 - Pacman finds food using Breadth First Search. Input is a given state space. Project on AI.
 - Shows realtime position of Pacman 'P'.
+
+### 5. Ricart Agarwala Mutual Exclusion Algo 
+- Simulates Ricart Agarwala MCA.

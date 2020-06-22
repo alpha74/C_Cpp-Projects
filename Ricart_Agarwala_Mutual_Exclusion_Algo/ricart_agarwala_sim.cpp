@@ -259,35 +259,7 @@ class PROCESS
 			{
 				vector<MESSAGE> retmsg ;
 				int temp_exec_rem = exec_rem ;
-				
-				/*
-					- updateState()
-				
-					# READING MESSAGES 
-					
-					- IF yes: 
-						- Message : REQUEST
-							- IF state is IDLE, REPLY to sender
-							- IF state is REQT, 
-								- IF lastmsg.TIMESTAMP is less, send REPLY
-								- ELSE, DEFER : Add sender ID to rqueue.
-							
-						- Message : REPLY
-							- Increment replied_count
-					
-					
-					# CHANGING STATES
-					
-					- IF state is REQT
-						- If replied_count == proc.size()-1, set STATE to EXEC	
-						
-					- IF state is EXEC
-						executeCS()	
-						
-						
-					# MESSAGE RESET
-				*/
-				
+								
 				// READ MESSAGE
 				if( msg )
 				{
@@ -551,8 +523,7 @@ vector<PROCESS> startProc( int num_proc )
 void titleMessage()
 {
 	cout << "\n\n\t\t RICART AGARWALA ALGO IMPLEMENTATION" ;
-	cout << "\n\n - Aman Kumar" ;
-	cout << "\n\n - BT16CSE020" ;
+	cout << "\n\n by alpha74" ;
 }
 
 
